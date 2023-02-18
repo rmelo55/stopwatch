@@ -26,6 +26,7 @@
 	border: 2px solid #000;
 	padding: 10px;
 	border-radius: 10px;
+	width: 328px;
 }
 .time{
 	display: flex;
