@@ -20,13 +20,14 @@
 
 .timer{
 	display: flex;
-	font-size: 55px;
+	font-size: 45px;
 	font-weight: bold;
 	color: #333;
 	border: 2px solid #000;
-	padding: 10px;
+	padding: 5px;
 	border-radius: 10px;
-	width: 328px;
+	width: 315px;
+	height: 80px;
 	background-color: #000;
 }
 .time{
@@ -39,7 +40,7 @@
 }
 
 .separator{
-	padding: 0 10px;
+	padding: 0 6px;
 	color: #8f949e;	
 }
 
@@ -68,6 +69,16 @@
 }
 
 #startBtn{
+	background-color: #0da000;
+	color: #fff;
+}
+
+#pauseBtn{
+	background-color: rgb(255, 38, 0);
+	color: #fff;
+}
+
+#resumeBtn{
 	background-color: #0da000;
 	color: #fff;
 }
